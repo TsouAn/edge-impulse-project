@@ -1,0 +1,21 @@
+# 模型檔案 (通常很大)
+*.eim
+
+# Python 快取
+__pycache__/
+*.pyc
+*.pyo
+
+# 虛擬環境
+venv/
+env/
+
+# 測試圖片 (可選)
+test_images/*.jpg
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 日誌檔案
+*.log
