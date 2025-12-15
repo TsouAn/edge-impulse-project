@@ -14,7 +14,7 @@
 | :--- | :--- | :---|
 | **鄒鈞安** | 核心開發 | 負責模型訓練 、 python腳本整合|
 
-##3 環境需求(Environment Requirements)
+## 3.環境需求(Environment Requirements)
 請確保你的linux 裝置已安裝以下環境:
 
 **作業程式**:Linux OS（推薦 Ubuntu 20.04 或更新版本）
