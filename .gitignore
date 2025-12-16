@@ -19,3 +19,18 @@ Thumbs.db
 
 # 日誌檔案
 *.log
+
+# API
+.ei_api_key
+*.key
+*_key.txt
+api_keys/
+
+# 環境設定
+.env
+.env.local
+.env.*.local
+
+# 暫存檔案
+*.tmp
+*.bak
