@@ -11,13 +11,13 @@ NC='\033[0m' # No Color
 
 #日誌函數
 log_info() {
-    echo -e "${GREEN}[INFO]${NC} $1"
+    echo -e "${GREEN}[資訊]${NC} $1"
 }
 log_error() {
-    echo -e "${RED}[ERROR]${NC} $1" >&2
+    echo -e "${RED}[錯誤]${NC} $1" >&2
 }
 log_warning() {
-    echo -e "${YELLOW}[WARNING]${NC} $1"
+    echo -e "${YELLOW}[警告]${NC} $1"
 }
 
 #主程式
