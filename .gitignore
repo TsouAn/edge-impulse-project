@@ -19,3 +19,18 @@ Thumbs.db
 
 # 日誌檔案
 *.log
+
+# API Keys (絕對不要提交 / Never commit)
+.ei_api_key
+*.key
+*_key.txt
+api_keys/
+
+# 環境設定 (Environment settings)
+.env
+.env.local
+.env.*.local
+
+# 暫存檔案 (Temp files)
+*.tmp
+*.bak
