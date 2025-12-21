@@ -83,7 +83,7 @@ main() {
     TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
     local LOG_DIR
     LOG_DIR="logs"
-    mkdir -p "$LOG_DIR"
+    mkdir -p "$LOG_DIR"S
     LOG_FILE="$LOG_DIR/upload_${LABEL}_${TIMESTAMP}.log"
 
     log_info "正在準備上傳到 ${CATEGORY} ..."
@@ -94,13 +94,13 @@ main() {
         exit 1
       fi
       if grep -q "Failed to upload" "$LOG_FILE"; then
-        log_error "上傳失敗: 原因未知(退出碼為 0)。"
+        log_error "上傳失敗。"
         log_info "日誌已儲存至: $LOG_FILE"
         exit 1
       fi
       log_info "上傳完成。"
     else 
-      log_error "上傳失敗。原因未知(退出碼非 0)。"
+      log_error "上傳失敗。"
     fi
     log_info "日誌已儲存至: $LOG_FILE"
 }
